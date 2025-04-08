@@ -2,7 +2,9 @@
 body {
     font-family: 'Monospace', Courier New;
     margin: 90;
-    text-align: center;
+    text-align: center;  
+    margin-left: 45px;
+    margin-right: 45px;
 }
 
 header {

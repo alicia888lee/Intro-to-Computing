@@ -4,7 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to the Internet in 2000</title>
+<<<<<<< HEAD
 
+=======
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 30px;
+            padding: 30px;
+        }
+        .left-column {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .right-column {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+        }
+        .portfolio-item {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            background-color: #f2f2f2;
+            border-radius: 15px;
+            text-decoration: none;
+            color: black;
+            padding: 20px;
+        }
+        .portfolio-item img {
+            display: block;
+            width: 250px;
+            height: auto;
+            margin-bottom: auto;
+        }
+        .portfolio-item h2 {
+            font-size: 20px;
+        }
+        .text-content {
+            margin-top: auto;
+        }
+        .portfolio-item p {
+            font-size: 14px;}
+
+    @media (max-width: 1000px) {
+      .container {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .right-column {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .portfolio-item h2 {
+        font-size: 18px;
+      }
+      .portfolio-item p {
+        font-size: 13px;
+      }
+    }
+
+    </style>
+>>>>>>> bbb54f7c34cbcc1c0a765c8d32aaefa4e284e79b
 </head>
 <body>
     <div class="container">

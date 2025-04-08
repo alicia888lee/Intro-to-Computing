@@ -12,6 +12,10 @@ body {
     gap: 30px;
     padding: 30px;
 }
+.portfolio-item:hover {
+    background-color: #e9e9e9;
+    transform: scale(1.03);
+}
 .left-column {
     font-size: 24px;
     font-weight: bold;
